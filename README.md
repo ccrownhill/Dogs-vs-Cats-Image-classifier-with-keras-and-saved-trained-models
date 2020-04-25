@@ -9,3 +9,9 @@ In order to make a prediction on any .jpg image you need to use the predict.py f
 So in order to make a prediction on the image "cat.jpg" using "model1.h5" you should run the following
 
 ```python predict.py "cat.jpg" "model1.h5"```
+
+Here are the accuracies on the training data set of all models:
+
+Model 1 --> 97%
+Model 2 --> 88%
+Model 3 --> 87%
