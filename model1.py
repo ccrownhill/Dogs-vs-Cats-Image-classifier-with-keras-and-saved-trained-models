@@ -3,7 +3,7 @@ from tensorflow.keras.layers import *
 import numpy as np
 import img_loader
 
-x_train, y_train = img_loader.load_data(r"C:\Users\const\Documents\scripts\dl\data\dogs-vs-cats\train\all")
+x_train, y_train = img_loader.load_data("../dogs-vs-cats/train")
 x_train = x_train / 255.0
 
 model = tf.keras.Sequential()
