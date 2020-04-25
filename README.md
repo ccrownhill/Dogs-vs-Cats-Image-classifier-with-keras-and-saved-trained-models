@@ -10,7 +10,7 @@ So in order to make a prediction on the image "cat.jpg" using "model1.h5" you sh
 
 ```python predict.py "cat.jpg" "model1.h5"```
 
-Here are the accuracies on the training data set of all models:
+Here are the accuracies on the training data set of all models (if you just want to pick one you should take Model 5 as it is probably not too overfitted because of a dropout layer):
 
 Model 1 --> 96%
 
