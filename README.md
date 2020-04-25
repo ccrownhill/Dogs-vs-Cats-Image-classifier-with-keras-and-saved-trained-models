@@ -3,7 +3,9 @@
 
 The code for any of the trained model saves model1.h5, model2.h5 and model3.h5 is in the respective model{n}.py file
 In order to make a prediction on any .jpg image you need to use the predict.py file like this
+
 ```python predict.py "image file" "saved model file"```
 
 So in order to make a prediction on the image "cat.jpg" using "model1.h5" you should run the following
+
 ```python predict.py "cat.jpg" "model1.h5"```
